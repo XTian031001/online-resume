@@ -1,0 +1,96 @@
+.wrapper {
+	min-height: 650px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	min-height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0bb5f4;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-left: 5px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+section {
+	border-style:solid;
+    border-width:3px 0 0 0;
+    padding: 30px 0 30px 0;
+	border-color: blueviolet;
+	text-align: center;
+	background: linear-gradient(178deg, #482feb, #9824ff);
+	color: #fff;
+	padding: 50px 0;
+}
+
+section h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+.footer {
+    color: #fff;
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+    padding-top:2%;
+    margin-top:2%;
+}
+a.btn:link, a.btn:visited {
+    background-color: violet;
+    width:100%;
+    color: violet;
+    border-style:solid;
+    border-width:3px 0 0 0;
+    padding: 30px 0 30px 0;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a.btn:hover, a.btn:active {
+    background-color: navy;
+    color: white;
+}
+.imgLogo{
+    width: 60%;
+    height:50%;
+    float: right;
+}
+.logo{
+    width: 20%;
+    min-height: 150px;
+    float: left;
+}
